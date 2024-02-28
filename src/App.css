@@ -1,0 +1,21 @@
+
+
+.App{
+  height: screen;
+  width: screen;
+overflow-x: hidden;
+ background-image: linear-gradient(to bottom,white,rgb(193, 193, 107));
+padding-left: 10px;
+padding-right: 10px;
+
+}
+
+@media (max-width:768px) {
+  .App{
+    padding-left: 5px;
+    padding-right: 5px;
+    display: flex;
+flex-wrap: wrap;
+  }
+  
+}
